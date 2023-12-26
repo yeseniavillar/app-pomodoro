@@ -1,0 +1,236 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav {
+ padding: 10px; 
+}
+
+nav h2 {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav img {
+  margin-right: 10px; /* Espaciado a la derecha de la imagen */
+}
+
+
+h2{
+  font-size: 25px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+}
+ .fa-solid{
+    color: tomato;
+    font-size: 18px;
+   
+}
+h1 {
+    text-align: center;
+    color: darkslategrey;
+    margin-bottom:15px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+
+  }
+  
+body{
+    background-color:#f9f8f8;
+    
+}
+.container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#fff;
+    box-shadow: -2px 1px 8px 1px rgba(207,202,202,0.75);
+    padding:50px 30px;
+    border-radius: 15px;
+}
+
+.search {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  form {
+    display: flex;
+    justify-content: center;
+  }
+  
+  input {
+    padding: 15px 10px;
+    outline: none;
+    width: 400px;
+  }
+  
+.section_container{
+   display: flex;
+   gap: 1rem;
+   justify-content: center;
+   margin-top: 40px;
+}
+button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.btn{
+    padding: 1em 2em;
+    border-radius: 5px;
+    color: tomato;
+}
+.btn-focus{
+    background-color: tomato;
+    color: #fff;
+}
+.timer_btn_container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+}
+ .relog img{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#time{
+   text-align: center; 
+   color: tomato;
+   font-size: 6em;
+   font-weight: 600;
+}
+.btn_container{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+#btn_start,
+#btn_pause{
+    padding: 1em 2em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#btn_reset{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.5em;
+}
+
+.hide{
+   display: none; 
+}
+.show{
+    display: block;
+}
+
+/*====== Las lista de tarea =====*/
+ul {
+    padding: 0;
+  }
+  
+  li {
+    list-style: none;
+    background-color:#FFF2F2;
+    border-radius: 10px;
+    margin-top: 15px;
+    display: flex;
+    margin-bottom: 4px;
+  }
+  
+  li p {
+    margin: 0;
+    padding: 15px;
+    width: 100%;
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+  }
+  
+  .btn-delete {
+    margin-left: auto;
+    border: none;
+    background-color:rgb(239, 51, 17);
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    outline: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 10%;
+    font-size: 1.2em;
+  }
+  
+  .btn-delete:hover {
+    cursor: pointer;
+    background-color: tomato;
+  }
+  
+  .btn-add {
+    padding: 5px 15px;
+    border: none;
+    color: white;
+    font-family: fantasy;
+    background-color: tomato;
+    font-size: 1.4rem;
+    outline: none;
+  }
+  
+  .btn-add:hover {
+    cursor: pointer;
+    background-color:rgb(239, 51, 17);
+  }
+  
+  .empty {
+    color: tomato;
+    text-align: center;
+    margin: 10px 20px;
+  }
+
+  /*======== Responsive=========*/
+
+  @media only screen and (max-width: 600px) {
+    h2{
+      font-size: 18px;
+    }
+    h1{
+      font-size: 17px;
+    }
+    .btn{
+      padding: 1.2em 1.5em;
+      font-size: 9px;
+  }
+  #time{
+    font-size: 4em;
+   }
+   #btn_start,
+   #btn_pause{
+    padding: 0.8em 1.5em;
+  }
+  .fa-solid{
+   font-size: 15px;
+  }
+  .btn-delete{
+    font-size: 0.8em;
+  }
+  li p {
+    font-size:14px;
+  }
+  .relog img{
+    width: 30%;
+  }
+  
+}
+  @media only screen and (min-width: 768px) {
+   
+  }
